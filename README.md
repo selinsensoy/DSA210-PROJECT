@@ -2,12 +2,7 @@
 
  This project aims to  understand the effects of wind direction and wind speed on fuel consumption in commercial flights. This will be beneficial in terms of sustainability since fuel usage impacts both costs and the environment.
 During this project, how fuel consumption in commercial flights is affected by wind direction and wind speed between United States and Europe will be analyzed.  
-
-  ## Hypotheses
-**Null Hypothesis:** Wind speed and direction have no impact on fuel consumption in commercial flights.  
-  
-**Alternative Hypothesis:** Wind speed and direction have a significant impact on fuel consumption in commercial flights.  
-  
+   
 ## Data That Will Be Used
 **Flight Data:** Data of commercial flights between United States and Europe.  
   
