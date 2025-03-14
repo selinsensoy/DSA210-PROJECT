@@ -1,7 +1,9 @@
 # Impacts of Wind Direction and Speed on Fuel Consumption in Commercial Flights
-
- This project aims to  understand the effects of wind direction and wind speed on fuel consumption in commercial flights. This will be beneficial in terms of sustainability since fuel usage impacts both costs and the environment.
-During this project, how fuel consumption in commercial flights is affected by wind direction and wind speed between United States and Europe will be analyzed.  
+## Motivation
+ This project aims to  understand the effects of wind direction and wind speed on fuel consumption in commercial flights. With this undderstanding we can havw a better view of commercial flights' impacts on the environment since we know that fuel consumption has an impact on the environment. 
+  
+## Objective
+ During this project, how fuel consumption in commercial flights is affected by wind direction and wind speed between United States and Europe will be analyzed to find a way to make commercial flights more sustainable for our environment.  
    
 ## Data That Will Be Used
 **Flight Data:** Data of commercial flights between United States and Europe.  
@@ -17,7 +19,7 @@ During this project, how fuel consumption in commercial flights is affected by w
   
 -Wind speed (km/h) in different altitudes.  
 -Wind direction in different altitudes.  
--Jet streams(Head wind or Tail wind) and turbulence regions.  
+-Jet streams(Headwind, Tailwind, Crosswind) and turbulence regions.  
   
 **Fuel Consumption Data:** Fuel usage statistics for flights.  
   
@@ -32,13 +34,31 @@ Offers real-time and historical flight data to airlines, airports, and aviation 
   
 **Fuel consumption Data:** Eurocontrol.  
 Also provides data on fuel consumption and route efficiency.  
+
+## Analysis Plan:
+**1) Collecting Data**  
   
-## Collecting Data
 **Flight Data:** I will request access to Eurocontrol's aviation data. If my access request is denied, I will collect necessary data from open aviation databases or use flight tracking APIs.  
   
 **Wind Data:** I will obtain weather data from ECMWF, using ECMWF’s API.  
   
 **Fuel Consumption Data:** I will request access to Eurocontrol's aggregated fuel consumption data. If my access request is denied, I will obtain data that I need from airlines or aviation authorities.  
+  
+**2) Visualisation:**  
+  
+  I will be using scatter plots for fuel consumption-wind speed/direction relation, heatmap for  correlations between fuel Consumption and wind variables, time series plot to show fuel consumption over time.  
+
+**3) Hypothesis Testing:**  
+
+**H₀:** Wind speed and direction have no impact on fuel consumption in commercial flights.  
+  
+**H₁:** Wind speed and direction have a significant impact on fuel consumption in commercial flights.  
+
+**4) Trend Analysis:**  
+
+ I will try to understand if jet streams have an impact on fuel consumption. If yes, I will look into each jet stream's (headwinds, tailwinds, and crosswinds) impact on this fuel consumption.  
+ I will also investigate peaks and plateaus of fuel consumption related to wind conditions.
+  
    
   
   
