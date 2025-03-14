@@ -3,6 +3,11 @@
  This project aims to  understand the effects of wind direction and wind speed on fuel consumption in commercial flights. This will be beneficial in terms of sustainability since fuel usage impacts both costs and the environment.
 During this project, how fuel consumption in commercial flights is affected by wind direction and wind speed between United States and Europe will be analyzed.  
 
+  ## Hypotheses
+**Null Hypothesis:** Wind speed and direction have no impact on fuel consumption in commercial flights.  
+  
+**Alternative Hypothesis:** Wind speed and direction have a significant impact on fuel consumption in commercial flights.  
+  
 ## Data That Will Be Used
 **Flight Data:** Data of commercial flights between United States and Europe.  
   
@@ -33,6 +38,14 @@ Offers real-time and historical flight data to airlines, airports, and aviation 
 **Fuel consumption Data:** Eurocontrol.  
 Also provides data on fuel consumption and route efficiency.  
   
-## Hypotheses
-**Null Hypothesis:** Wind speed and direction have no impact on fuel consumption in commercial flights.  
-**Alternative Hypothesis:** Wind speed and direction have a significant impact on fuel consumption in commercial flights since.
+## Collecting Data
+**Flight Data:** I will request access to Eurocontrol's aviation data. If my access request is denied, I will collect necessary data from open aviation databases or use flight tracking APIs.  
+  
+**Wind Data:** I will obtain weather data from ECMWF, using ECMWF’s API.  
+  
+**Fuel Consumption Data:** I will request access to Eurocontrol's aggregated fuel consumption data. If my access request is denied, I will obtain data that I need from airlines or aviation authorities.  
+   
+  
+  
+  
+
