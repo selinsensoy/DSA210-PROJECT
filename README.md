@@ -43,10 +43,12 @@ Also provides data on fuel consumption and route efficiency.
 **Wind Data:** I will obtain weather data from ECMWF, using ECMWF’s API.  
   
 **Fuel Consumption Data:** I will request access to Eurocontrol's aggregated fuel consumption data. If my access request is denied, I will obtain data that I need from airlines or aviation authorities.  
+
+  *I will combine these data using numpy and pandas.*  
   
 **2) Visualisation:**  
   
-  I will be using scatter plots for fuel consumption-wind speed/direction relation, heatmap for  correlations between fuel Consumption and wind variables, time series plot to show fuel consumption over time.  
+  I will be using scatter plots for fuel consumption-wind speed/direction relation, heatmap for  correlations between fuel Consumption and wind variables, time series plot to show fuel consumption over time with the help of matplotlib.  
 
 **3) Hypothesis Testing:**  
 
