@@ -1,0 +1,27 @@
+import pandas as pd
+import numpy as np
+
+flight = pd.read_csv("flight route data.csv")
+
+wind = pd.read_csv("wind data.csv")
+
+emission = pd.read_csv("co2 emission data.csv")
+
+flight.columns = flight.columns.str.strip().str.lower()
+emission.columns = emission.columns.str.strip().str.lower()
+
+flight["route"] = flight["source airport"].str.upper() + "-" + flight["destination apirport"].str.upper()
+emission["route"] = emission["from_airport_code"].str.upper() + "-" + emission["dest_airport_code"].str.upper()
+merged = pd.merge(flight, emission[["route", "co2_emissions"]], on="route", how="left")
+
+wind["wind_kmh"] = wind["Wind Speed (m/s)"] * 3.6
+wind["wind_dir_deg"] = wind["Wind Direction (°)"]
+
+avg_wind_speed = wind["wind_kmh"].mean()
+avg_wind_dir = wind["wind_dir_deg"].mean()
+flight_heading = 90
+angle = np.radians(avg_wind_dir - flight_heading)
+
+merged["tailwind_component"] = avg_wind_speed * np.cos(angle)
+merged["crosswind_component"] = avg_wind_speed * np.sin(angle)
+merged.to_csv("merged_flight_wind_emissions.csv", index=False)
