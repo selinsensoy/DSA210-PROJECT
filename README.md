@@ -3,7 +3,7 @@
  This project aims to  understand the effects of wind direction and wind speed on fuel consumption in commercial flights. With this undderstanding we can have a better view of commercial flights' impacts on the environment since we know that fuel consumption has an impact on the environment. 
   
 ## Objective
- During this project, how fuel consumption in commercial flights is affected by wind direction and wind speed at Turkey will be analyzed to find a way to make commercial flights more sustainable for our environment.  
+ During this project, how fuel consumption in commercial flights is affected by wind direction and wind speed at Turkey will be analyzed to find a way to make commercial flights more sustainable for our environment.(I will be looking at Istanbul and Bursa since my wind data is from that region)  
    
 ## Data That Will Be Used
 **Flight Data:** Data of commercial flights between United States and Europe.  
