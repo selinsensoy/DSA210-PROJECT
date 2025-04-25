@@ -3,7 +3,7 @@
  This project aims to  understand the effects of wind direction and wind speed on fuel consumption in commercial flights. With this undderstanding we can have a better view of commercial flights' impacts on the environment since we know that fuel consumption has an impact on the environment. 
   
 ## Objective
- During this project, how fuel consumption in commercial flights is affected by wind direction and wind speed between United States and Europe will be analyzed to find a way to make commercial flights more sustainable for our environment.  
+ During this project, how fuel consumption in commercial flights is affected by wind direction and wind speed at Turkey will be analyzed to find a way to make commercial flights more sustainable for our environment.  
    
 ## Data That Will Be Used
 **Flight Data:** Data of commercial flights between United States and Europe.  
@@ -18,12 +18,11 @@
 **Wind Data:** Wind path and wind speed along the flight path.  
   
 -Wind speed (km/h) in different altitudes.  
--Wind direction in different altitudes.  
--Jet streams(Headwind, Tailwind, Crosswind) and turbulence regions.  
+-Wind direction in different altitudes.    
   
 **Fuel Consumption Data:** Fuel usage statistics for flights. For every tonne of fuel reduced, an equivalent amount of 3.15t of CO2 is avoided.  
   
--Fuel burned (kg). 
+-CO2 emission (tonnes). 
   
 ## Data Source
 **Wind data:** ECMWF (European Centre for Medium-Range Weather Forecasts).  
